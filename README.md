@@ -2,6 +2,8 @@
 
 Демонстрацию работы приложения можно посмотреть на YouTube: https://www.youtube.com/watch?v=uXp471N9mIY
 
+Репозиторий с кодом построения самого классификатора: https://github.com/vnetserg/traffic-v2
+
 Для запуска приложения необходим интерпретатор Python версии 2.7.х
 с установленными библиотеками PyQt4, pcapy, sklearn, dpkt и numpy.
 В качестве ОС требуется Linux, ибо на Windows нет pcapy.
