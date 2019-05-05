@@ -88,4 +88,4 @@ class MainWindow(QtGui.QMainWindow):
         for i, eth in enumerate(flow["dump"]):
             outfile.writepkt(eth, i)
         outfile.close()
-        subprocess.call("echo 'wireshark /tmp/dump.pcap' | runuser sergio &", shell=True)
+        subprocess.call("wireshark /tmp/dump.pcap &", shell=True)
